@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Fereastra_Student">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/fundal3"
+            android:padding="20dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_imageView"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginTop="30sp"
+                android:src="@drawable/user_icon"
+                app:civ_border_color="#FFF"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/nume_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_toRightOf="@+id/profile_imageView"
+                android:includeFontPadding="false"
+                android:layout_marginTop="30sp"
+                android:text="Daniel Munteanu"
+                android:textColor="#FFF"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/username_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nume_field"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="10sp"
+                android:layout_toRightOf="@+id/profile_imageView"
+                android:includeFontPadding="false"
+                android:text="username: munteanudanu"
+                android:textColor="#FFF"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/edit_btn"
+                android:layout_width="192dp"
+                android:layout_height="47dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="110dp"
+                android:layout_toRightOf="@+id/profile_imageView"
+                android:background="@drawable/rounded_button"
+                android:text="Editează-ți profilul" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="1310dp"
+        android:layout_gravity="bottom"
+        android:background="@color/deepBlue"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/menu" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffbf"
+    tools:context=".Materii">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textViewMaterii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alegeți cel puțin 2 materii:"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/color_2"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"
+            android:padding="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:choiceMode="multipleChoice">
+
+
+        </ListView>
+
+        <Button
+            android:id="@+id/btnInainte"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="30sp"
+            android:background="@drawable/rounded_button"
+            android:text="OK" />
+    </LinearLayout>
+
+</ScrollView>

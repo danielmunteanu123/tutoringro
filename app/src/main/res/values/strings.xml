@@ -1,0 +1,292 @@
+<resources>
+    <string name="app_name">TutoringRo</string>
+    <string name="bine_ati_venit">Bine aţi venit!</string>
+    <string name="btnIncepe">Începe</string>
+    <string name="incepe">Începe</string>
+    <string name="text">SAU</string>
+    <string name="textview">Incepe</string>
+    <string name="parola">Parola</string>
+
+    <string name="btnCreareCont">Creeaza Cont</string>
+    <string name="ce_doriti_sa_faceti">Ce doriți să faceți?</string>
+    <string name="btnStudent">Student</string>
+    <string name="btnProfesor">Profesor</string>
+
+    <string name="btnInainte">Înainte</string>
+    <string name="username_edit_text">""</string>
+    <string name="parola_edit_text">""</string>
+    <string name="nume_edit_text">""</string>
+    <string name="prenume_edit_text">""</string>
+    <string name="email_hint">Email</string>
+    <string name="parola_hint">Parola</string>
+    <string name="nume_hint">Nume</string>
+    <string name="prenume_hint">Prenume</string>
+    <string name="creeaza_un_cont_textView">Creeaza un cont:</string>
+    <string name="introduceti_datele_personale">Introduceti datele personale:</string>
+    <string name="salveaza">Salveaza</string>
+    <string name="categorii">Categorii</string>
+    <string name="inainte">Inainte</string>
+    <string name="materii">Materii</string>
+    <string name="subcategorii">Subcategorii</string>
+    <string name="detalii">Mai avem nevoie de câteva detalii:</string>
+    <string name="distanta_textView">Cât de departe va puteți deplasa?</string>
+    <string name="distanta_km_hint">Distanta(km)</string>
+    <string name="domiciliu">Domiciliu:</string>
+    <string name="domiciliu_hint">str.Bulevardul Mamaia 304,Constanța</string>
+    <string name="textView_nrTelefon">Numarul de telefon:</string>
+    <string name="nrTelefon_hint">0771341861</string>
+    <string name="pret_textView">Prețul pe ședință de 2 ore(lei):</string>
+    <string name="varsta_textView">Ce varstă aveți?</string>
+    <string name="varsta_editText">21</string>
+    <string name="btnOK">OK</string>
+    <string name="creeaza_un_cont_student">Creeaza un cont(Student):</string>
+    <string name="creeaza_un_cont_profesor">Creeaza un cont(Profesor):</string>
+    <string name="ok">OK</string>
+    <string name="datele_utilizatorului">Datele utilizatorului</string>
+    <string name="prenume_textView">Prenume</string>
+    <string name="nume_textView">Nume</string>
+    <string name="btnEdit">Edit</string>
+
+    <string name="e_mail">E-Mail</string>
+    <string name="phone_no">Phone No</string>
+    <string name="password">Password</string>
+
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="full_name">Full Name</string>
+    <string name="go">GO</string>
+    <string name="nume_si_prenume">Nume si Prenume</string>
+    <string name="update">UPDATE</string>
+    <string name="distanta">Distanta</string>
+    <string name="pret">Pret</string>
+    <string name="varsta">Varsta</string>
+    <string name="cauta_profesori">Cauta Profesori</string>
+
+    <string-array name="judete">
+        <item>Nu conteaza</item>
+        <item>Alba</item>
+        <item>Arad</item>
+        <item>Argeș</item>
+        <item>Bacău</item>
+        <item>Bihor</item>
+        <item>Botoșani</item>
+        <item>Brașov</item>
+        <item>Buzău</item>
+        <item>Caraș-Severin</item>
+        <item>Călărași</item>
+        <item>Cluj</item>
+        <item>Constanța</item>
+        <item>Covasna</item>
+        <item>Dâmbovița</item>
+        <item>Dolj</item>
+        <item>Gorj</item>
+        <item>Harghita</item>
+        <item>Hunedoara</item>
+        <item>Ialomița</item>
+        <item>Iași</item>
+        <item>Ilfov</item>
+        <item>Maramureș</item>
+        <item>Mehedinți</item>
+        <item>Mureș</item>
+        <item>Neamț</item>
+        <item>Olt</item>
+        <item>Prahova</item>
+        <item>Satu Mare</item>
+        <item>Sibiu</item>
+        <item>Suceava</item>
+        <item>Teleorman</item>
+        <item>Timiș</item>
+        <item>Vaslui</item>
+        <item>Vâlcea</item>
+        <item>Vrancea</item>
+    </string-array>
+
+    <string-array name="materii">
+        <item>Stiinte Economice</item>
+        <item>Marketing</item>
+        <item>Management</item>
+        <item>Relatii internationale</item>
+        <item>Economie politica</item>
+        <item>Economie internationala</item>
+        <item>Economia Turismului</item>
+        <item>Inginerie electrică‎</item>
+        <item>Condensatoare electrice‎</item>
+        <item>Electricitate‎</item>
+        <item>Magnetism‎</item>
+        <item>Potențial‎</item>
+        <item>Potențiale‎</item>
+        <item>Tensiune electrică‎ </item>
+        <item>Inteligență artificială</item>
+        <item>Deep Learning</item>
+        <item>Robotics</item>
+        <item>Machine Learning‎‎</item>
+        <item>Analiza seriilor temporale</item>
+        <item>Analiză armonică‎</item>
+        <item>Analiză numerică</item>
+        <item>Analiză reală‎</item>
+        <item>Fractali‎</item>
+        <item>Topologie geometrică‎</item>
+        <item>Măsurători geometrice‎</item>
+        <item>Geometrie afină‎</item>
+        <item>Centre geometrice‎</item>
+        <item>Figuri geometrice‎ </item>
+        <item>Algebră abstractă‎</item>
+        <item>Algebră liniară</item>
+        <item>Combinatorică‎</item>
+        <item>Curbe algebrice‎</item>
+        <item>Algebră elementară‎</item>
+        <item>Geometrie algebrică‎ </item>
+        <item>Relație matematică</item>
+        <item>Inginerie electrică‎</item>
+        <item>Condensatoare electrice‎</item>
+        <item>Electricitate‎</item>
+        <item>Magnetism‎</item>
+        <item>Potențial‎</item>
+        <item>Potențiale‎</item>
+        <item>Tensiune electrică‎ </item>
+        <item>Java</item>
+        <item>C++</item>
+        <item>C#</item>
+        <item>JavaScript‎‎</item>
+        <item>PHP</item>
+        <item>Python </item>
+        <item>CSS</item>
+        <item>HTML</item>
+        <item>JavaScript</item>
+        <item>Python‎‎</item>
+        <item>Online Marketing</item>
+        <item>Biomecanică‎</item>
+        <item>Forță‎‎</item>
+        <item>Inginerie mecanică‎</item>
+        <item>Mecanică clasică‎‎</item>
+        <item>Mecanică statistică‎‎</item>
+        <item>Organe de mașini‎ </item>
+        <item>Tensiune electrică‎ </item>
+        <item>Topologie geometrică‎</item>
+        <item>Măsurători geometrice‎</item>
+        <item>Geometrie afină‎</item>
+        <item>Geometrie algebrică‎</item>
+        <item>Geometrie analitică‎ </item>
+        <item>Centre geometrice‎</item>
+        <item>Figuri geometrice‎ </item>
+
+
+    </string-array>
+    <string-array name="materii_economy">
+        <item>Stiinte Economice</item>
+        <item>Marketing</item>
+        <item>Management</item>
+        <item>Relatii internationale</item>
+        <item>Economie politica</item>
+        <item>Economie internationala</item>
+        <item>Economia Turismului</item>
+
+
+    </string-array>
+
+    <string-array name="electromagnetism_array">
+        <item>Inginerie electrică‎</item>
+        <item>Condensatoare electrice‎</item>
+        <item>Electricitate‎</item>
+        <item>Magnetism‎</item>
+        <item>Potențial‎</item>
+        <item>Potențiale‎</item>
+        <item>Tensiune electrică‎ </item>
+
+
+    </string-array>
+
+    <string-array name="mecanica_array">
+        <item>Biomecanică‎</item>
+        <item>Forță‎‎</item>
+        <item>Inginerie mecanică‎</item>
+        <item>Mecanică clasică‎‎</item>
+        <item>Mecanică statistică‎‎</item>
+        <item>Organe de mașini‎ </item>
+        <item>Tensiune electrică‎ </item>
+
+
+    </string-array>
+
+    <string-array name="POO_array">
+        <item>Java</item>
+        <item>C++</item>
+        <item>C#</item>
+        <item>JavaScript‎‎</item>
+        <item>PHP</item>
+        <item>Python </item>
+
+
+    </string-array>
+
+    <string-array name="machine_learning">
+        <item>Inteligență artificială</item>
+        <item>Deep Learning</item>
+        <item>Robotics</item>
+        <item>Machine Learning‎‎</item>
+
+
+    </string-array>
+
+    <string-array name="digital_marketing">
+        <item>CSS</item>
+        <item>HTML</item>
+        <item>JavaScript</item>
+        <item>Python‎‎</item>
+        <item>Online Marketing</item>
+
+
+    </string-array>
+
+
+    <string-array name="analiza_matematica">
+        <item>Analiza seriilor temporale</item>
+        <item>Analiză armonică‎</item>
+        <item>Analiză complexă‎</item>
+        <item>Analiză funcțională‎</item>
+        <item>Analiză numerică</item>
+        <item>Analiză reală‎</item>
+        <item>Fractali‎</item>
+    </string-array>
+
+    <string-array name="geometrie_array">
+        <item>Topologie geometrică‎</item>
+        <item>Măsurători geometrice‎</item>
+        <item>Geometrie afină‎</item>
+        <item>Geometrie algebrică‎</item>
+        <item>Geometrie analitică‎ </item>
+        <item>Centre geometrice‎</item>
+        <item>Figuri geometrice‎ </item>
+    </string-array>
+
+    <string-array name="algebra_array">
+        <item>Algebră abstractă‎</item>
+        <item>Algebră liniară</item>
+        <item>Combinatorică‎</item>
+        <item>Curbe algebrice‎</item>
+        <item>Algebră elementară‎</item>
+        <item>Geometrie algebrică‎ </item>
+        <item>Relație matematică</item>
+    </string-array>
+
+    <string-array name="materii_array">
+        <item>Limbi Straine</item>
+        <item>Informatica</item>
+        <item>Economie</item>
+        <item>Jurnalism</item>
+        <item>Stiinte politice</item>
+        <item>Inginerie</item>
+        <item>Matematica</item>
+
+    </string-array>
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_fereastra_student">FereastraStudent</string>
+    <string name="title_activity_student">Student</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

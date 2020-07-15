@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View_PDF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Toate certificatele:"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <ListView
+        android:id="@+id/myListView"
+        android:layout_width="match_parent"
+        android:layout_height="531dp"
+        android:layout_marginTop="90dp"
+        android:padding="10dp" />
+    <ImageView
+        android:id="@id/info_icon"
+        android:layout_width="54dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="30dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_info"
+        android:transitionName="logo_image" />
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:visibility="gone"
+        android:text="N-am găsit nici-un certificat disponibil."
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        tools:ignore="MissingPrefix" />
+
+
+</RelativeLayout>
